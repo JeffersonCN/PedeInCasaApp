@@ -1,0 +1,65 @@
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body { background-color: #fff; }
+
+.app-shell {
+  width: 403px;
+  height: 803px;
+  background: url(../images/nexus-5-shell.jpg) top left no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.app {
+  background-color: #fff;
+  height: 594px;
+  width: 362px;
+  margin: 67px auto;
+  overflow-y: auto;
+  color: #111;
+  position: relative;
+}
+
+.introducao-comprador {
+  background: url(../images/comprador-intro-bg.jpg) top left no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.infos {
+  img { margin: 0 auto; }
+  .text-under-icon {
+    font-weight: bold;
+  }
+}
+
+.icon-cesta-casa {
+  margin-top: 20px !important;
+  margin-bottom: 47px !important;
+}
+
+.btn-pular {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.slick-dots {
+
+}
